@@ -1,0 +1,111 @@
+
+
+
+:root {
+    --primary-color: #FB6A27;
+    --dark-color: #0f0f0f;
+    --gray-color: gray;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+img {
+    max-width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 0;
+}
+
+/* batas */
+.header-section {
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.header-title {
+  font-size: 40px;
+   color: #111;
+}
+/* batas */
+
+section .section-title {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.text-orange {
+    color: var(--primary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--primary-color);
+}
+
+/* HEADER */
+.header-section .header-title {
+    font-size: var(--h1-font-size);
+}
+
+.header-section .header-skill {
+    color: var(--dark-color);
+}
+
+.header-section .header-skill:hover {
+    color: var(--primary-color);
+}
+
+.header-section .header-img {
+    width: 50%
+}
+
+
+
+.portofolio-section .card .card-img-top {
+    height: 200%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* skil */
+
+.skills-seaction {
+    background-color: black;
+}
